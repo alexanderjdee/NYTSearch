@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NYTSearch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">    
+</head>
+
+<body>
+   <div class="container">
+       
+       <div class="jumbotron" id="nytheader">
+               <i class="far fa-newspaper"></i>  New York Times Search
+       </div>
+
+       <!-- <div class="container" id="formcontainer"></div> -->
+       <div class="container" id="formcontainer">
+       
+            <div class="row">
+
+                <div class="col">
+                    <form id="NYTSearch">
+                        <b>Search Parameters</b><br><br>
+                        Search Term:<br> <input type="text" id="term"><br>
+                        Number of Records to Retrieve (10 or less):<br><input type="text" id="recordNum"><br>
+                        Start Year(Optional):<br><input type="text" id="startYear"><br>
+                        End Year(Optional):<br><input type="text" id="endYear"><br>
+                        <!-- <input id="search" type="submit" value="Search"> -->
+                    </form><br>
+                    <button id="search" class="btn-default"><i class="fas fa-search"></i>Search</button>
+                    <button id="clearButton" class="btn-default"><i class="fas fa-trash-alt"></i>Clear Results</button>
+                </div>
+
+            </div>
+
+        </div>
+
+       <div id="article-drop">
+
+       </div>
+
+   </div>
+
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="text/javascript" src="assets/app.js"></script>
+</body>
+
+</html>
