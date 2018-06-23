@@ -1,0 +1,19 @@
+#nytheader{
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#formcontainer{
+    padding: 10px;
+    border: 1.5px;
+    border-style:solid;
+    border-color: rgb(201, 201, 201);
+    font-family:'Times New Roman'
+}
+
+input{
+    width: 100%;
+}
