@@ -10,7 +10,7 @@ $("#clearButton").on("click", function(){
 
 
 $("#search").on("click", function(){
-    $("#article-drop").html('<iframe src="https://giphy.com/embed/3oEjI6SIIHBdRxXI40" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mashable-3oEjI6SIIHBdRxXI40">via GIPHY</a></p>');
+    $("#article-drop").html('<img src="https://media0.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy-downsized.gif" width="480" height="480">');
     console.log("you clicked search");
     term = $("#term").val().trim();
     records = $("#recordNum").val().trim();

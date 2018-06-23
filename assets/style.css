@@ -8,10 +8,11 @@
 
 #formcontainer{
     padding: 10px;
-    border: 1.5px;
+    border: 1px;
     border-style:solid;
     border-color: rgb(201, 201, 201);
-    font-family:'Times New Roman'
+    font-family:'Times New Roman';
+    border-radius: 5px;
 }
 
 input{
